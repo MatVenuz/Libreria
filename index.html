@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookly</title>
+    <link rel="shortcut icon" href="img/enchantedbook.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+    <header id="title">
+        <nav class="nav-bar">
+            <img src="img/enchantedbook.png" alt="logo">
+            <ul>
+                <li><a href="#title">Inicio</a></li>
+                <li><a href="#books">Libros</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#contact-information">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="header-title">
+            <h1 class="title">Bookly</h1>
+            <p class="subtitle">Libreria Digital UDISTA</p>
+            <div class="arrow-container">
+                <a href="#books"><div class="arrow"></div></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="books">
+            <h2 class="books-title">Libros Disponibles</h2>
+            <h3>Presione click para descargar</h3>
+            <div class="books" data-aos="fade-up">
+                <div class="image-container">
+                    <a href="libros/circuitos.pdf" download="Circuitos"><img src="img/circuitos.jpg" alt="Descripción de la imagen"></a>
+                    <div class="overlay">
+                    <p>Fundamentos de Circuitos Eléctricos</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <a href="libros/calculo.pdf" download="Calculo">
+                    <img src="img/calculo.jpg" alt="Descripción de la imagen"></a>
+                    <div class="overlay">
+                    <p>Problemas Resueltos de Cálculo para Ingenieros</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <a href="libros/checkland.pdf" download="Pensamiento de Sistemas">
+                    <img src="img/checkland.jpg" alt="Descripción de la imagen"></a>
+                    <div class="overlay">
+                    <p>Pensamientos de Sistemas, Práctica de Sistemas</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <a href="libros/fisica1.pdf" download="Fisica Universitaria Volumen I">
+                    <img src="img/fisica1.jpg" alt="Descripción de la imagen"></a>
+                    <div class="overlay">
+                    <p>Física Universitaria Volumen I</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <a href="libros/fisica2.pdf" download="Fisica Universitaria Volumen II">
+                    <img src="img/fisica2.jpg" alt="Descripción de la imagen"></a>
+                    <div class="overlay">
+                    <p>Física Universitaria Volumen II</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="img/donut.png" alt="Descripción de la imagen">
+                    <div class="overlay">
+                    <p>Donas 2x1$</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="about">  
+            <h2>Sobre nosotros</h2>
+            <div class="company-information" data-aos="fade-right">
+                <div class="information-div">
+                    <p>¡Bienvenido a Neptaly, la tienda pastelera donde los sueños dulces se hacen realidad!
+                        
+                    Nos enorgullece ofrecer una amplia variedad de pasteles y postres, desde clásicos como el pastel de chocolate y la tarta de manzana hasta creaciones innovadoras como la tarta de queso con frutas frescas. Todos nuestros productos están hechos a mano con ingredientes frescos y de la mejor calidad para asegurarnos de que cada bocado sea una experiencia inolvidable.</p>
+                    <img src="img/cake2.png" alt="">
+                </div>
+                <div class="information-div">
+                    <p>En Neptaly, también valoramos la creatividad y la personalización. Nos encanta trabajar con nuestros clientes para crear pasteles y postres personalizados que se ajusten a sus gustos y necesidades específicas. Desde tartas de bodas y pasteles de cumpleaños hasta mesas de postres para eventos corporativos, estamos aquí para ayudarte a hacer tus sueños dulces realidad.
+
+                    Gracias por elegir Neptaly para satisfacer tus antojos de postres.</p>
+                    <img src="img/ice cream 2.png" alt="">
+                </div>
+            </div>
+        </div>
+            <div id="contact-information">
+                <h2>Contactanos</h2>
+                <div class="contact-div" data-aos="fade-left">
+                    <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="contact-div" data-aos="fade-left">
+                    <button id="miBoton"><i class="fas fa-play"></i></button>
+                    <button id="miBotonP"><i class="fas fa-pause"></i></button>
+                </div>
+            </div>
+    </main>
+    <footer>
+        <div class="footer-div">
+            <p>Pagina proyecto para la UDO</p>
+            <p>El prieto <i class="fas fa-copyright"></i></p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
