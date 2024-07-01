@@ -56,7 +56,7 @@ header {
 }
 
 .nav-bar ul li {
-    margin: 0 20px;
+    margin: 0 2%;
     font-size: 20px;
     font-weight: 700;
     position: relative;
@@ -124,6 +124,34 @@ header {
   }
 }
 
+@media (max-width: 700px)
+{
+    .nav-bar img
+    {
+        display: none;
+    }
+    .nav-bar ul {
+        margin-top: 40px;
+        justify-content: center;
+    }
+    .nav-bar
+    {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media (max-width: 500px)
+{
+    .header-title h1 {
+        font-size: 4em;
+    }
+
+    .header-title p {
+        font-size: 1.5em;
+    }
+}
+
 /** end of the header **/
 
 /** books section **/
@@ -186,6 +214,38 @@ header {
   
 .image-container:hover .overlay {
     opacity: 1;
+}
+
+@media (max-width: 700px)
+{
+    .books{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 500px)
+{
+
+    .books-title {
+        font-size: 1.5em;
+    }
+
+    .books{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin: 50px 0; 
+    }
+    
+    .image-container img {
+        width: 150px;
+        height: 200px;
+    }
+
+    .image-container {
+        width: 150px;
+        height: 200px;
+    }
 }
 
 /** end of the book section **/
