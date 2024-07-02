@@ -237,13 +237,17 @@ header {
     }
     
     .image-container img {
-        width: 150px;
         height: 200px;
+        width: 160px;
     }
 
     .image-container {
-        width: 150px;
         height: 200px;
+        width: 160px;
+    }
+
+    .overlay {
+        bottom: 2px;
     }
 }
 
@@ -251,12 +255,21 @@ header {
 
     .image-container img {
         width: 120px;
-        height: auto;
+        height: 155px;
     }
 
     .image-container {
         width: 120px;
-        height: auto;
+        height: 155px;
+    }
+
+    .image-container a {
+        width: 120px;
+        height: 160px;
+    }
+
+    .overlay {
+        font-size: 1em;
     }
 }
 
