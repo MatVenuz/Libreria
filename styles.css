@@ -311,6 +311,10 @@ header {
     height: 100px;
 }
 
+#volumen {
+    margin-top: 20px;
+}
+
 @media (max-width: 500px) {
 
     #about h2 {
@@ -377,7 +381,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 30px 0;
+    margin: 10px 0;
 }
 
 @media (max-width: 500px) {
